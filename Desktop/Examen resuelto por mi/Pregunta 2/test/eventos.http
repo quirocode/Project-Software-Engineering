@@ -1,0 +1,24 @@
+GET http://localhost:3001/api/events
+
+###
+
+GET http://localhost:3001/api/events/search?categoria=Conferencia
+
+###
+
+POST http://localhost:5000/api/players/
+Content-Type:  application/json
+
+{
+    "name":"El perro waza",
+    "age":25,"nat":"PERU",
+    "position":"Delantero",
+    "height":178,"weight":75,
+    "pac":19,
+    "tec":18,
+    "dri":19,
+    "fin":18,   
+    "pas":14
+}
+
+
